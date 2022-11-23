@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/logo.png">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/iconsfont.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  <script>
+    if (window.matchMedia('(prefers-color-scheme: dark)').media === 'not all') {
+      document.documentElement.style.display = 'none';
+      document.head.insertAdjacentHTML(
+        'beforeend',
+        '<link rel="stylesheet" href="/light.css" onload="document.documentElement.style.display = \'\'">',
+      );
+    }
+  </script>
+  <link rel="stylesheet" href="css/light.css" media='(prefers-color-scheme: light)'>
+  <link rel="stylesheet" href="css/dark.css" media='(prefers-color-scheme: dark)'>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Упрощённая проверка счетчиков</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+<header class="header">
+  <div class="header__container container">
+    <div class="header__logo logo">
+    </div>
+    <h5 class="header__title">упрощённая проверка счетчиков</h5>
+    <a class="header__telephone tel" href="https://wa.me/" aria-label="Мессенджер ватсап">
+      <span class="icon-whatsap tel__icon"></span>
+      <span class="tel__number">+ 7 (903) 722-00-75</span>
+    </a>
+  </div>
+</header><main class="page">
+
+  <section class="page__main main">
+    <div class="main__container container">
+      <div class="main__text-slogan-top">мы дорожим вашим временем!</div>
+      <div class="main__text">
+        <h4 class="main__text-title">
+          <span class="main__text-title-price color-price">10%</span>
+          <span class="main__text-title-text">скидка постоянным клиентам!</span>
+        </h4>
+        <p class="main__text-subtitle">Упрощённая поверка счетчика реально сэкономит Ваше время!</p>
+        <p class="main__text-subtitle">Мы самостоятельно внесем все данные о поверке в систему “Аршин"!</p>
+        <div class="main__text-price">
+          <span class="main__text-price-title"> Цена:<br> </span>
+          <span class="main__text-price-num">498</span> руб/шт
+        </div>
+      </div>
+      <div class="main__images">
+        <picture class="main__imgage">
+          <source class="main__img" srcset="img/main/counter.webp" type="image/webp" media="(min-width:800px)">
+          <source class="main__img" srcset="img/main/counter-mobile.webp" type="image/webp" media="(max-width:800px)">
+          <source class="main__img" srcset="img/main/counter-mobile.png" type="image/png" media="(max-width:800px)">
+          <img class="main__img" src="img/main/counter.png" alt="Счетчик">
+        </picture>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="page__form form">
+    <div class="form__container container">
+      <div class="form__text">
+        <div class="form__text-slogan">мы дорожим вашим временем!</div>
+        <p class="form__text-title">Внимание! </p>
+        <p class="form__text-subtitle">Сколько у вас счётчиков, столько и заявок.</p>
+      </div>
+      <form action="#" class="main-form">
+
+        <div class="main-form__input-wrap">
+          <div class="main-form__title">Номер Вашего телефона для связи в Whatsapp
+            <span class="main-form__symbol">*</span>
+          </div>
+          <input class="main-form__input" type="text" name="input-tel" placeholder="+ 7 (903) 123-00-00">
+        </div>
+
+        <div class="main-form__input-wrap input-height">
+          <div class="main-form__title">Серийный номер счетчика
+            <span class="main-form__symbol">*</span>
+          </div>
+          <input class="main-form__input input-position" type="text" name="input-num"
+            placeholder="Введите серийный номер">
+          <div class="main-form__img-wrap-blue">
+            <img class="main-form__img" src="img/form/counter-blue.png" alt="Счетчик">
+            <img src="img/form/linia-blue.png" alt="Счетчик" class="main-form__img-linia-blue">
+          </div>
+        </div>
+
+
+        <div class="main-form__input-wrap input-height">
+          <div class="main-form__title">Название марки счетчика
+            <span class="main-form__symbol">*</span>
+          </div>
+          <input class="main-form__input input-position" type="text" name="input-stamp"
+            placeholder="Введите марку счетчика">
+          <div class="main-form__img-wrap-red">
+            <img class="main-form__img" src="img/form/counter-red.png" alt="Счетчик">
+            <img src="img/form/linia-blue.png" alt="Счетчик" class="main-form__img-linia-red">
+          </div>
+        </div>
+
+        <div class="main-form__input-wrap">
+          <div class="main-form__title">Труба установки
+            <span class="main-form__symbol">*</span>
+          </div>
+          <div class="main-form__inputs">
+            <input class="main-form__input-radio" type="radio" name="input-radio" value="cold" id="cold">
+            <label class="main-form__label" for="cold">Холодная</label>
+          </div>
+          <div class="main-form__inputs">
+            <input class="main-form__input-radio" type="radio" name="input-radio" value="hot" id="hot">
+            <label class="main-form__label" for="hot">Горячая</label>
+          </div>
+
+
+        </div>
+
+        <div class="main-form__bgcolor-price">
+          <div class="main-form__title">откуда вы о нас узнали?
+            <span class="main-form__symbol2">*</span>
+          </div>
+          <input class="main-form__input" type="text" name="info" placeholder="Введите ответ">
+        </div>
+
+
+        <div class="main-form__required">* Обязательно</div>
+        <div class="main-form__reminder">Внесённые данные в Аршин не исправить – придётся оформлять новый заказ.
+          Пожалуйста, оформляйте по одному счётчику.
+        </div>
+
+        <button type="submit" class="button">отправить</button>
+      </form>
+
+
+    </div>
+  </section>
+
+
+  <section class="page__reviews reviews">
+    <div class="reviews__container container">
+      <div class="reviews__block block-reviews">
+        <button class="block-reviews__but" type="submit">оставить отзыв</button>
+        <div class="block-reviews__estimation">Оценка 4.8</div>
+        <div class="block-reviews__img">
+          <img src="img/rait.png" alt="рэйтинг">
+        </div>
+        <div class="block-reviews__text">Основано <br> на 1240 отзывах</div>
+      </div>
+      <div class="reviews__swiper">
+        <div class="swiper reviews__swiper-slider">
+          <div class="swiper-wrapper  reviews__swiper-wrapper">
+            <div class="swiper-slide  reviews__swiper-slide">
+              <div class="reviews__swiper-name">Вера - Москва</div>
+              <div class="reviews__swiper-star">
+                <span class="icon-star-yellow"></span>
+                <span class="icon-star-yellow"></span>
+                <span class="icon-star-yellow"></span>
+                <span class="icon-star-yellow"></span>
+                <span class="icon-star-yellow"></span>
+                <span class="reviews__swiper-estimation">– 5</span>
+              </div>
+              <div class="reviews__swiper-text-wrap">
+                <div class="reviews__swiper-text">Все супер быстро, четко и понятно. Спасибо большое, обращусь ещё не
+                  раз. Всем советую от души. (12.10.2022).Все супер быстро, четко и понятно. Спасибо большое, обращусь
+                  ещё не
+                  раз. Всем советую от души. (12.10.2022)</div>
+              </div>
+            </div>
+            <div class="swiper-slide  reviews__swiper-slide">
+              <div class="reviews__swiper-name">Ольга - Москва</div>
+              <div class="reviews__swiper-star">
+                <span class="icon-star-yellow"></span>
+                <span class="icon-star-yellow"></span>
+                <span class="icon-star-yellow"></span>
+                <span class="icon-star-yellow"></span>
+                <span class="icon-star-yellow"></span>
+                <span class="reviews__swiper-estimation">– 5</span>
+              </div>
+              <div class="reviews__swiper-text-wrap">
+                <div class="reviews__swiper-text">Самая лучшая, быстрая и удобная поверка в моей жизни. Спасибо большое.
+                  Успехов! (20.05.2022)</div>
+              </div>
+            </div>
+            <div class="swiper-slide  reviews__swiper-slide">
+              <div class="reviews__swiper-name">Наталья - Москва</div>
+              <div class="reviews__swiper-star">
+                <span class="icon-star-yellow"></span>
+                <span class="icon-star-yellow"></span>
+                <span class="icon-star-yellow"></span>
+                <span class="icon-star-yellow"></span>
+                <span class="icon-star-yellow"></span>
+                <span class="reviews__swiper-estimation">– 5</span>
+              </div>
+              <div class="reviews__swiper-text-wrap">
+                <div class="reviews__swiper-text">Большое спасибо. В связи с занятостью обратилась
+                  к нему вечером после 21,00, сразу все было сделано..</div>
+              </div>
+            </div>
+          </div>
+          <div class="reviews__swiper-buttons">
+            <div class="next icon-arrow"></div>
+            <div class="fraction"></div>
+            <div class="bullets"></div>
+            <div class="prev icon-arrow"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+<footer class="footer">
+  <div class="footer__container container">
+    <div class="footer__logo">
+    </div>
+    <a class="footer__telephone tel" href="https://wa.me/" aria-label="Мессенджер ватсап">
+      <span class="icon-whatsap tel__icon"></span>
+      <span class="tel__number">+ 7 (903) 722-00-75</span>
+    </a>
+  </div>
+</footer>  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

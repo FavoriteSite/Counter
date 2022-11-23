@@ -1,0 +1,20 @@
+:root {
+  --color-text: #001C44;
+  --color-textDop: #02214C;
+  --color: #FEDA00;
+  --bg-colorDop: linear-gradient(0deg, #FEDA00, #FEDA00), #D9D9D9;
+  --bg-color: linear-gradient(180deg, #FFFFFF 0%, #E7F6FF 100%);
+  --color-required: #CF0B0B;
+  --bg-input: #FFFFFF;
+  --color-placeholder: #5F7899;
+  --bg-body: linear-gradient(180deg, #FFFFFF 0%, #E7F6FF 100%);
+  --bg-slider: #ffffff;
+  --color1: #001C44;
+  --bg-img: linear-gradient(180deg, #FFFFFF 0%, #E7F6FF 100%);
+  --bg-logo: url('../img/logo.png');
+  --bg-input-last: #FEDA00;
+  --color-star: #CF0B0B;
+  --color-input-radio: #5F7899;
+  --color-subtitle: #001C44;
+  --color-text-button-hover: #FEDA00;
+}

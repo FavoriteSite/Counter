@@ -1,0 +1,20 @@
+:root {
+  --color-text: #ffffff;
+  --color-textDop: #ffffff;
+  --color: #FEDA00;
+  --bg-colorDop: linear-gradient(0deg, #FEDA00, #FEDA00), #D9D9D9;
+  --bg-color: linear-gradient(180deg, #FFFFFF 0%, #E7F6FF 100%);
+  --color-required: #FEDA00;
+  --bg-input: linear-gradient(160.25deg, rgba(255, 255, 255, 0.43) -33.78%, rgba(255, 255, 255, 0) 113.92%);
+  --color-placeholder: #5F7899;
+  --bg-body: #001C44;
+  --bg-img: url('../img/bg.png');
+  --bg-slider: transparent;
+  --color1: #001C44;
+  --bg-logo: url('../img/01dark.png');
+  --bg-input-last: #FFFFFF;
+  --color-star: transparent;
+  --color-input-radio: #FFFFFF;
+  --color-subtitle: #FEDA00;
+  --color-text-button-hover: #FFFFFF;
+}
